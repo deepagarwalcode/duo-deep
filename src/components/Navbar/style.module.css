@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3vh 5vw;
+  width: 100%;
+  /* background-color: #151515; */
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  left: 0;
+  /* background: #151515; */
+}
+
+.logo{
+    font-family: "Clash Display";
+}
+
+.nav_mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.nav_mid>h4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav_part3{
+    height: 30px;
+    width: 30px;
+    border-radius: 10vh;
+    background-color: whitesmoke;
+}

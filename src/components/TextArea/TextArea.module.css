@@ -1,0 +1,40 @@
+.textarea {
+  /* background-color: gray; */
+  margin-top: -10vh;
+  padding: 0 10vh;
+  padding-bottom: 20vh;
+}
+
+.ta_header{
+    font-size: 5vw;
+    font-family: "Clash Display";
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.ta_header > span, .ta_info_text > span{
+    display: inline-block;
+    /* transform: translateY(100%); */
+}
+
+.ta_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40vw;
+    overflow: hidden;
+    margin-top: 10vh;
+
+}
+
+.ta_info > p{
+    flex: 1;
+}
+
+.ta_info_text{
+    font-size: 3vw;
+    flex: 1.5 !important;
+    text-transform: uppercase;
+    overflow: hidden !important;
+}
+

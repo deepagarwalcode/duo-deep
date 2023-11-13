@@ -1,0 +1,98 @@
+.works {
+  padding-bottom: 10vh;
+}
+
+.works_header {
+  font-size: 5vw;
+  font-family: "Clash Display";
+  font-weight: 500;
+  padding: 10vh 5vw;
+  padding-bottom: 0;
+}
+
+.works_container_row1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 5vh;
+  height: 50vh;
+  /* background-color: gray; */
+}
+
+.works_container_row1 > div {
+  flex: 1;
+  height: 30vh;
+  /* background-color: gray; */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vh;
+}
+
+.work_right1 > img {
+  height: 50vh;
+  width: 40vw;
+  object-fit: cover;
+}
+
+.work_left1 > img {
+  height: 50vh;
+  width: 50vw;
+  object-fit: cover;
+}
+
+.work_left1 {
+  align-self: flex-end;
+  margin-top: 50vh;
+}
+
+.work_right1 {
+  align-items: flex-end;
+  gap: 1vh;
+}
+
+.works_container_row2 {
+  display: flex;
+  padding: 0 10vw;
+  height: 38vw;
+  justify-content: space-between;
+  margin-top: 30vh;
+}
+
+.work_right2 > img {
+  height: 70vh;
+  width: 25vw;
+  object-fit: cover;
+}
+
+.work_left2 > img {
+  height: 60vh;
+  width: 35vw;
+  object-fit: cover;
+}
+
+.work_left2 {
+  align-self: flex-end;
+}
+
+.work_right2 {
+  align-items: flex-end;
+  gap: 1vh;
+}
+
+.work_left1 > p, .work_left2 > p{
+  text-align: right;
+  font-family: "Clash Display";
+  font-weight: 600;
+}
+
+.work_right1 > p, .work_right2 > p{
+  text-align: left !important;
+  /* width: 40vw; */
+  font-family: "Clash Display";
+  font-weight: 600;
+
+}
+
+.work_right1 > p{
+  width: 40vw;
+}

@@ -1,0 +1,18 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap'); */
+
+@import url("https://fontsgoogleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+.cursor {
+  min-height: 15px;
+  min-width: 15px;
+  width: max-content;
+  border-radius: 15px;
+  padding: 0.5vh 1vh;
+  font-size: 0.7rem;
+  position: fixed;
+  background-color: #edbfff;
+  z-index: 10 !important;
+  color: white;
+  /* mix-blend-mode: difference; */
+  /* transition: all linear 0.1s !important; */
+}
